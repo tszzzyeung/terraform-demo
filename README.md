@@ -18,6 +18,8 @@ terraform apply
 # I used the terraform output after terraform apply as the Url to fetch
 # It will save the trimmed output to final.txt
 ./script.sh
+
+# Sample output : 6 ngnix
 ```
 
 For logging resources usage of the containers, I think it could be used by using cloudwatch logs group/ promethues to log?
